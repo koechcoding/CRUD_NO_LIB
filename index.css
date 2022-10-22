@@ -125,16 +125,8 @@
     font-size: large;;
     margin-top: 20px;
   }
-  .button{
-    color: #9f21f3;
-    width: 40px;
-    align-items: center;
-    text-align: center;
-    
- }
   @media (min-width: 480px) {
     .fill-form {
-      /* background: #fff; */
       padding: 20px;
       margin-right: 5px;
       width: 20vw;
