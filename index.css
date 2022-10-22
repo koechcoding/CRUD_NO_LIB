@@ -18,10 +18,10 @@
 }
 .date-control{
     height: 40px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 form-control{
-    width: 100px;
+    width: 500px;
 }
 .todo {
     padding-top: 30px;
@@ -79,7 +79,6 @@ form-control{
   grid-template-columns: repeat(1, 2fr);
   width: 30vw;
 }
-}
 .modal-btn {
   background: #d41818;
   border: none;
@@ -104,9 +103,8 @@ form-control{
 }
 .title-text{
     font-size: 25px;
-    text-transform: capitalize;
     font-weight: bolder;
-    margin-bottom: 0;
+    color: #6918d4;
   }
   tasks-title{
     color: #522e80;
@@ -115,9 +113,7 @@ form-control{
     color: #542e80;
     font-weight: bolder;
     font-size: large;
-#text{
-    color: #d41818;
-}
+  }
 .msg{
     color: #7018d4; 
 }
@@ -131,9 +127,12 @@ form-control{
     margin-top: 20px;
   }
   .button{
-    background-color: #9f21f3;
-    width: 199px;
-  }
+    color: #9f21f3;
+    width: 40px;
+    align-items: center;
+    text-align: center;
+    
+ }
   @media (min-width: 480px) {
     .fill-form {
       /* background: #fff; */

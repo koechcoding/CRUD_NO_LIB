@@ -6,7 +6,6 @@ let text = document.getElementById("text");
 let tasks = document.getElementById("tasks");
 let tasks2 = document.getElementById("tasks2");
 let add = document.getElementById("add");
-let modal = document.querySelector(".modal");
 
 
    let todoTusk = [];
@@ -44,8 +43,8 @@ let modal = document.querySelector(".modal");
           <br />
           <p>${x.description}</p>
           <br />
-          <span class="date-text">Due date: ${x.date}</span>
-          <button type="button" class="button" onClick="changeListener(this)" >Done</button><br />
+          <span class="date-text">Due date: ${x.date}</span><br />
+          <button  class="button" onClick="changeListener(this)" >Done</button><br />
          
         </li>
       `);
