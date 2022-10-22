@@ -44,7 +44,7 @@ let add = document.getElementById("add");
           <p>${x.description}</p>
           <br />
           <span class="date-text">Due date: ${x.date}</span><br />
-          <button  class="button" onClick="changeListener(this)" >Done</button><br />
+          <button  class="click-button" onClick="changeListener(this)" >Done</button><br />
          
         </li>
       `);

@@ -8,7 +8,6 @@
 .fill-form {
     padding-left: 10px; 
     padding-right: 30px; 
-    width: 90%;
     border-radius: 8px;
     text-align: center;
     align-items: center;
@@ -20,8 +19,13 @@
     height: 40px;
     background-color: rgb(255, 255, 255);
 }
-form-control{
-    width: 500px;
+.form-control{
+  height: 30px;
+  width: 100px;
+}
+.form-control-1{
+    width: 400px;
+    height: 110px;
 }
 .todo {
     padding-top: 30px;
@@ -49,11 +53,6 @@ form-control{
    border-right: 2px solid rgb(55, 0, 128);
    border-left: 2px solid rgb(55, 0, 128);
    width: 600px;
-}
-#tasks {
-    padding-top: 5px;
-    margin: 0;
-    width: 30vw;
 }
 .task-list{
     display: flex;
@@ -90,7 +89,7 @@ form-control{
 }
 .add-btn{
   background-color: #522e80;
-  padding: 10px 15px;
+  padding: 20px 30px;
   border-radius: 3px;
   text-decoration: none;
   color: #fff;
